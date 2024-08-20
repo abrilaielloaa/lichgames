@@ -1,0 +1,23 @@
+img{
+    width: 100%;
+}
+.cajitas{
+    border:solid black 1px;
+    height: 25vh;
+}
+.cajitas div{
+    border: solid green 1px;
+}
+.botonFormulario{
+    background-color: hotpink;
+}
+
+.dropdownHotPink{
+    background-color: hotpink;
+}
+.dropdownHotPink:hover{
+    background-color: hotpink;
+}
+.menuNavegacion{
+    background-color: green;
+}

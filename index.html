@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg menuNavegacion">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Galería</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Preguntas frecuentes</a>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main class="container-fluid">
+        <section>
+            <h2>Maquetando con bootstrap</h2>
+            <div>
+                <h3>Volvamos a las cajitas</h3>
+                <div class="container">
+                    <div class="cajitas row">
+                        <div class="col-12 col-sm-6 col-md-3 col-xl-1"></div>
+                        <div class="col-12 col-sm-6 col-md-3 col-xl-1"></div>
+                        <div class="col-12 col-sm-12 col-md-3 col-xl-1"></div>
+                        <div class="col-12 col-sm-12 col-md-3 col-xl-1"></div>
+                    </div>
+                    <div class="cajitas row">
+                      <div class="col"></div>
+                      <div class="col"></div>
+                      <div class="col"><div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>Cajitas responsive</h3>
+                <div>
+                    <div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ejemploMaquetación container">
+            <div class="row">
+                <p class="col text-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At accusamus asperiores corrupti ipsam magni quibusdam, deserunt explicabo quisquam. Aperiam praesentium aspernatur asperiores error exercitationem possimus facilis odio explicabo iure! Alias.</p>
+                <p class="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At accusamus asperiores corrupti ipsam magni quibusdam, deserunt explicabo quisquam. Aperiam praesentium aspernatur asperiores error exercitationem possimus facilis odio explicabo iure! Alias.</p>
+                <p class="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At accusamus asperiores corrupti ipsam magni quibusdam, deserunt explicabo quisquam. Aperiam praesentium aspernatur asperiores error exercitationem possimus facilis odio explicabo iure! Alias.</p>
+                <p class="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At accusamus asperiores corrupti ipsam magni quibusdam, deserunt explicabo quisquam. Aperiam praesentium aspernatur asperiores error exercitationem possimus facilis odio explicabo iure! Alias.</p>
+            </div>
+        </section>
+        <section class="maquetacionArticles">
+          <div class="row">
+              <article class="col">
+                  <img src="./img/serviciohabitacion.jpg" alt="" class="rounded-circle">
+                  <h4>lorem ipsum</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique neque molestias earum, explicabo iure quaerat</p>
+                  <button>Agregar al carrito</button>
+              </article>
+              <article class="col">
+                  <img src="./img/spa.jpg" alt="">
+                  <h4>lorem ipsum</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique neque molestias earum, explicabo iure quaerat</p>
+                  <button>Agregar al carrito</button>
+              </article>
+              <article class="col">
+                  <img src="./img/pileta.jpg" alt="">
+                  <h4>lorem ipsum</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique neque molestias earum, explicabo iure quaerat</p>
+                  <button>Agregar al carrito</button>
+              </article>
+          </div>
+        </section>
+        <section>
+            <h2>Componentes de bootstrap</h2>
+            <div>
+                <h3>Tabla</h3>
+                <table class="table table-danger">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Primero</th>
+                      <th scope="col">ultimo</th>
+                      <th scope="col">Handle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td colspan="2">Larry the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+            <div>
+                <h3>Formularios</h3>
+                <form class="w-50">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                  <button type="submit" class="btn botonFormulario">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section>
+          <h2>Carrusel</h2>
+          <div id="carouselExample" class="carousel slide w-50">
+            <div class="carousel-inner">
+              <div class="carousel-item active d-flex flex-row">
+                <article class="col d-block">
+                  <img src="./img/serviciohabitacion.jpg" alt="" class="rounded-circle">
+                  <h4>lorem ipsum</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique neque molestias earum, explicabo iure quaerat</p>
+                  <button>Agregar al carrito</button>
+              </article>
+              <article class="col d-block">
+                  <img src="./img/spa.jpg" alt="">
+                  <h4>lorem ipsum</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique neque molestias earum, explicabo iure quaerat</p>
+                  <button>Agregar al carrito</button>
+              </article>
+              <article class="col d-block">
+                  <img src="./img/pileta.jpg" alt="">
+                  <h4>lorem ipsum</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique neque molestias earum, explicabo iure quaerat</p>
+                  <button>Agregar al carrito</button>
+              </article>
+              </div>
+              <div class="carousel-item d-flex flex-row">
+                <article class="col d-block">
+                  <img src="./img/serviciohabitacion.jpg" alt="" class="rounded-circle">
+                  <h4>lorem ipsum</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique neque molestias earum, explicabo iure quaerat</p>
+                  <button>Agregar al carrito</button>
+              </article>
+              <article class="col d-block">
+                  <img src="./img/spa.jpg" alt="">
+                  <h4>lorem ipsum</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique neque molestias earum, explicabo iure quaerat</p>
+                  <button>Agregar al carrito</button>
+              </article>
+              <article class="col d-block">
+                  <img src="./img/pileta.jpg" alt="">
+                  <h4>lorem ipsum</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique neque molestias earum, explicabo iure quaerat</p>
+                  <button>Agregar al carrito</button>
+              </article>
+              </div>
+              <div class="carousel-item d-flex flex-row">
+                <article class="col d-block">
+                  <img src="./img/serviciohabitacion.jpg" alt="" class="rounded-circle">
+                  <h4>lorem ipsum</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique neque molestias earum, explicabo iure quaerat</p>
+                  <button>Agregar al carrito</button>
+              </article>
+              <article class="col d-block">
+                  <img src="./img/spa.jpg" alt="">
+                  <h4>lorem ipsum</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique neque molestias earum, explicabo iure quaerat</p>
+                  <button>Agregar al carrito</button>
+              </article>
+              <article class="col d-block">
+                  <img src="./img/pileta.jpg" alt="">
+                  <h4>lorem ipsum</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique neque molestias earum, explicabo iure quaerat</p>
+                  <button>Agregar al carrito</button>
+              </article>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+        <section class="">
+            <div class="">
+                <h2 class="">Cards</h2>
+                <div class="d-flex flex-row justify-content-between">
+                  <article class="card">
+                    <img src="./img/habitacion.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </article>
+                    <article class="card">
+                      <img src="./img/habitacion.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </article>
+                    <article class="card">
+                        <img src="./img/habitacion.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </article>
+                  </div>
+                </div>
+            </div>   
+        </section>
+        <section>
+          <h2>Tarjetas Gráficas</h2>
+        </section>
+        
+    </main>
+    <footer>
+        <p>Gracias por la clase!</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   </body>
+</html>
